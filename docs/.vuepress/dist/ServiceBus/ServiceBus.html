@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Azure Service Bus | VerIT on Azure 2.0 Documentation</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    
+    <meta name="description" content="Documentation for VoA2.0">
+    <link rel="preload" href="/assets/css/0.styles.ccac5a78.css" as="style"><link rel="preload" href="/assets/js/app.f91f3d65.js" as="script"><link rel="preload" href="/assets/js/2.76d4cc4c.js" as="script"><link rel="preload" href="/assets/js/8.83655d1f.js" as="script"><link rel="prefetch" href="/assets/js/3.11572a76.js"><link rel="prefetch" href="/assets/js/4.5ed19beb.js"><link rel="prefetch" href="/assets/js/5.9a9c7cab.js"><link rel="prefetch" href="/assets/js/6.b4c09f08.js"><link rel="prefetch" href="/assets/js/7.1f6498ff.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ccac5a78.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="VerIT on Azure 2.0 Documentation" class="logo"> <span class="site-name can-hide">VerIT on Azure 2.0 Documentation</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/01.VoA2.0/" class="nav-link">
+  VoA2.0
+</a></div><div class="nav-item"><a href="https://dnvgltechroadmap-prod.azurewebsites.net/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VerIT Enterprise Infrastructure Technology Roadmap
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/01.VoA2.0/" class="nav-link">
+  VoA2.0
+</a></div><div class="nav-item"><a href="https://dnvgltechroadmap-prod.azurewebsites.net/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  VerIT Enterprise Infrastructure Technology Roadmap
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Voa2.0</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Service Fabric</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Servicebus</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/ServiceBus/ServiceBus.html" aria-current="page" class="active sidebar-link">Azure Service Bus</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/ServiceBus/ServiceBus.html#verit-on-azure" class="sidebar-link">VerIT on Azure</a></li><li class="sidebar-sub-header"><a href="/ServiceBus/ServiceBus.html#security" class="sidebar-link">Security</a></li><li class="sidebar-sub-header"><a href="/ServiceBus/ServiceBus.html#secure-implementation-requirements-summary" class="sidebar-link">Secure implementation requirements summary</a></li><li class="sidebar-sub-header"><a href="/ServiceBus/ServiceBus.html#provisioning-by-code" class="sidebar-link">Provisioning by code</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="azure-service-bus"><a href="#azure-service-bus" class="header-anchor">#</a> Azure Service Bus</h1> <p><strong>26.10.2017 | Contributors: Morten Larsen | Reviewed: No | Approval: <em>Pending</em></strong></p> <h2 id="verit-on-azure"><a href="#verit-on-azure" class="header-anchor">#</a> VerIT on Azure</h2> <h4 id="what-is-azure-service-bus"><a href="#what-is-azure-service-bus" class="header-anchor">#</a> What is Azure Service Bus?</h4> <p>Azure Service Bus is the message queuing platform that provides <em>Topic</em>, <em>Relay</em> and <em>Queue</em> messaging capabilities.  It is a feature rich service that can provide a means for decoupled systems to exchange information independently.</p> <p><em>Queues</em> - allow one-directional communication. Each queue acts as an intermediary (sometimes called a broker) that stores sent messages until they are received (FIFO). Each message is received by a single recipient. Consists of two receiver modes: 1) Peek &amp; Lock 2) Receive &amp; Delete</p> <p><em>Relay</em> - provide bi-directional communication. Unlike queues and topics, a relay doesn't store in-flight messages; it's not a broker. Instead, it just passes them on to the destination application.</p> <p><em>Topics</em> - provide one-directional communication using subscriptions- a single topic can have multiple subscriptions. Like a queue, a topic acts as a broker, but each subscription can optionally use a filter to receive only messages that match specific criteria. Consists of two receiver modes: 1) Peek &amp; Lock 2) Receive &amp; Delete</p> <p><img src="https://i.imgur.com/PwdHzc6.png" alt=""></p> <h2 id="security"><a href="#security" class="header-anchor">#</a> Security</h2> <p>Shared Access Signatures (SAS) are the primary security mechanism for Service Bus messaging. Applications gain access to Azure Service Bus functions using Shared Access Signature (SAS) token authentication.</p> <p>SAS authentication enables applications to authenticate to Service Bus using an access key configured on the root namespace, or on the sub messaging entity (queue or topic) with which specific rights are associated. You must then use this key to generate a SHA-256 SAS token that clients can in turn use to authenticate to Service Bus.</p> <p>SAS authentication enables you to grant a user access to Service Bus resources with specific rights (Manage, Send, Listen). SAS authentication in Service Bus involves the configuration of a cryptographic key with associated rights on a Service Bus resource. Clients can then gain access to that resource by presenting a SAS token, which consists of the resource URI being accessed and an expiry signed with the configured key.</p> <p>You can configure SAS keys on a Service Bus namespace. The key applies to all messaging entities in that namespace. You can, and should, rather configure keys on Service Bus queues and topics. SAS is also supported on Azure Relay.</p> <p>To use SAS, you can configure a SharedAccessAuthorizationRule object on a namespace, queue, or topic. This rule consists of the following elements:</p> <p>• <em>KeyName</em> that identifies the rule.</p> <p>• <em>PrimaryKey</em> is a cryptographic key used to sign/validate SAS tokens.</p> <p>• <em>SecondaryKey</em> is a cryptographic key used to sign/validate SAS tokens.</p> <p>• <em>Rights</em> representing the collection of Listen, Send, or Manage rights granted.</p> <p>Authorization rules configured at the root namespace level will grant access to all entities in a namespace for clients with tokens signed using the corresponding key. Up to 12 such authorization rules can be configured on a Service Bus namespace, queue, or topic. By default, a SharedAccessAuthorizationRule with all rights is configured for every namespace when it is first provisioned. Instead of using this default SAS key,  you should configure a SAS key on the sublevel entity you require access to - Topic or Queue.</p> <p>To access an entity, the client requires a SAS token generated using a specific SharedAccessAuthorizationRule. The SAS token is generated using the HMAC-SHA256 of a resource string that consists of the resource URI to which access is claimed, and an expiry with a cryptographic key associated with the authorization rule.</p> <p>SAS authentication support for Service Bus is included in the Azure .NET SDK versions 2.0 and later. SAS includes support for a SharedAccessAuthorizationRule. All APIs that accept a connection string as a parameter include support for SAS connection strings.</p> <h2 id="secure-implementation-requirements-summary"><a href="#secure-implementation-requirements-summary" class="header-anchor">#</a> <em>Secure implementation requirements summary</em></h2> <div class="language- extra-class"><pre class="language-text"><code> 
+[must] Use the access key to generate a SHA-256 SAS token that clients can in turn use to authenticate to Service Bus
+[should] Configure keys on Service Bus queues and topics rather than on the namespace 
+
+[must]=required security implementation, [should]=recommended security best practice
+</code></pre></div><h2 id="provisioning-by-code"><a href="#provisioning-by-code" class="header-anchor">#</a> <em>Provisioning by code</em></h2> <p>Service Bus namespace and a queue example:</p> <p>...json</p> <div class="language- extra-class"><pre><code>{
+  &quot;$schema&quot;: &quot;http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#&quot;,
+  &quot;contentVersion&quot;: &quot;1.0.0.0&quot;,
+  &quot;parameters&quot;: {
+&quot;serviceBusNamespaceName&quot;: {
+  &quot;type&quot;: &quot;string&quot;,
+  &quot;metadata&quot;: {
+&quot;description&quot;: &quot;Name of the Service Bus namespace&quot;
+  }
+},
+&quot;serviceBusQueueName&quot;: {
+  &quot;type&quot;: &quot;string&quot;,
+  &quot;metadata&quot;: {
+&quot;description&quot;: &quot;Name of the Queue&quot;
+  }
+}
+  },
+  &quot;variables&quot;: {
+&quot;defaultSASKeyName&quot;: &quot;RootManageSharedAccessKey&quot;,
+&quot;authRuleResourceId&quot;: &quot;[resourceId('Microsoft.ServiceBus/namespaces/authorizationRules', parameters('serviceBusNamespaceName'), variables('defaultSASKeyName'))]&quot;,
+	&quot;sbVersion&quot;: &quot;2017-04-01&quot;
+  },
+  &quot;resources&quot;: [
+{
+  &quot;apiVersion&quot;: &quot;2017-04-01&quot;,
+  &quot;name&quot;: &quot;[parameters('serviceBusNamespaceName')]&quot;,
+  &quot;type&quot;: &quot;Microsoft.ServiceBus/Namespaces&quot;,
+  &quot;location&quot;: &quot;[resourceGroup().location]&quot;,
+  &quot;sku&quot;: {
+&quot;name&quot;: &quot;Standard&quot;
+  },
+  &quot;properties&quot;: {},
+  &quot;resources&quot;: [
+{
+  &quot;apiVersion&quot;: &quot;2017-04-01&quot;,
+  &quot;name&quot;: &quot;[parameters('serviceBusQueueName')]&quot;,
+  &quot;type&quot;: &quot;Queues&quot;,
+  &quot;dependsOn&quot;: [
+&quot;[concat('Microsoft.ServiceBus/namespaces/', parameters('serviceBusNamespaceName'))]&quot;
+  ],
+  &quot;properties&quot;: {
+&quot;lockDuration&quot;: &quot;PT5M&quot;,
+&quot;maxSizeInMegabytes&quot;: &quot;1024&quot;,
+&quot;requiresDuplicateDetection&quot;: &quot;false&quot;,
+&quot;requiresSession&quot;: &quot;false&quot;,
+&quot;defaultMessageTimeToLive&quot;: &quot;P10675199DT2H48M5.4775807S&quot;,
+&quot;deadLetteringOnMessageExpiration&quot;: &quot;false&quot;,
+&quot;duplicateDetectionHistoryTimeWindow&quot;: &quot;PT10M&quot;,
+&quot;maxDeliveryCount&quot;: &quot;10&quot;,
+&quot;autoDeleteOnIdle&quot;: &quot;P10675199DT2H48M5.4775807S&quot;,
+&quot;enablePartitioning&quot;: &quot;false&quot;,
+&quot;enableExpress&quot;: &quot;false&quot;
+  }
+}
+  ]
+}
+  ],
+  &quot;outputs&quot;: {
+&quot;NamespaceConnectionString&quot;: {
+  &quot;type&quot;: &quot;string&quot;,
+  &quot;value&quot;: &quot;[listkeys(variables('authRuleResourceId'), variables('sbVersion')).primaryConnectionString]&quot;
+},
+&quot;SharedAccessPolicyPrimaryKey&quot;: {
+  &quot;type&quot;: &quot;string&quot;,
+  &quot;value&quot;: &quot;[listkeys(variables('authRuleResourceId'), variables('sbVersion')).primaryKey]&quot;
+}
+  }
+}
+</code></pre></div><p>Powershell execution command:</p> <div class="language- extra-class"><pre><code>New-AzureRmResourceGroupDeployment -ResourceGroupName \&lt;resource-group-name\&gt; -TemplateFile &lt;path to json deployment file seen above&gt;</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/Service Fabric/ServiceFabric.html" class="prev">
+        Azure Service Fabric
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.f91f3d65.js" defer></script><script src="/assets/js/2.76d4cc4c.js" defer></script><script src="/assets/js/8.83655d1f.js" defer></script>
+  </body>
+</html>
